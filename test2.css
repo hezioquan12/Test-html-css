@@ -1,0 +1,26 @@
+h1{
+    color: rgb(203, 57, 57);
+    height:30px;
+}
+button{
+    background-color: white;
+    color: rgb(2, 57, 255);
+    height: 45px;
+    width: 100px;
+    border-color: rgb(2, 57, 255);
+    border-radius:15px;
+    border-width: 2px;
+    font-size: 18px;
+}
+button:hover{
+    opacity: 0.4;
+}
+button:active{
+    background-color: rgb(139, 172, 234);
+}
+img{
+    width: 120px;
+    height:150px;
+    border-radius: 10px;
+    margin-left: 50px;
+}

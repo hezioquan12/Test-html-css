@@ -13,10 +13,11 @@ button{
     font-size: 18px;
     transition: opacity 0.5s;
     cursor: pointer;
+    margin: 10px;
 }
 button:hover{
-    opacity: 0.5;
-    box-shadow: 5px 5px 5px rgba(2, 57, 255,0.2);
+    opacity: 0.6;
+    box-shadow: 5px 4px 4px rgba(2, 57, 255,0.3);
     transition: box-shadow 0.5s;
 }
 button:active{
@@ -29,3 +30,20 @@ img{
     margin-left: 50px;
     cursor: pointer;
 }
+img:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.5s;
+}
+audio { 
+    width: 300pxpx; 
+    height: 40px;
+    border-radius: 90px;
+    transform: scale(1.05);
+    margin: 10px;
+  }
+  audio:hover{
+    box-shadow: 4px 5px 10px rgba(0,0, 0, 0.5);
+    transition:box-shadow 0.5s, opacity 0.5s;
+    opacity: 0.8;
+
+  }

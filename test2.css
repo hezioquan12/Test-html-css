@@ -3,17 +3,21 @@ h1{
     height:30px;
 }
 button{
-    background-color: white;
-    color: rgb(2, 57, 255);
-    height: 45px;
+    background-color: rgb(78, 116, 253);
+    color:white;
+    height: 40px;
     width: 100px;
-    border-color: rgb(2, 57, 255);
+    border-color: rgb(78,116, 255);
     border-radius:15px;
     border-width: 2px;
     font-size: 18px;
+    transition: opacity 0.5s;
+    cursor: pointer;
 }
 button:hover{
-    opacity: 0.4;
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px rgba(2, 57, 255,0.2);
+    transition: box-shadow 0.5s;
 }
 button:active{
     background-color: rgb(139, 172, 234);
@@ -23,4 +27,5 @@ img{
     height:150px;
     border-radius: 10px;
     margin-left: 50px;
+    cursor: pointer;
 }

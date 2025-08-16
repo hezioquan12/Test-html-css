@@ -23,17 +23,6 @@ button:hover{
 button:active{
     background-color: rgb(139, 172, 234);
 }
-img{
-    width: 120px;
-    height:150px;
-    border-radius: 10px;
-    margin-left: 50px;
-    cursor: pointer;
-}
-img:hover{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    transition: box-shadow 0.5s;
-}
 audio { 
     width: 300pxpx; 
     height: 40px;
